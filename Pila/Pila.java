@@ -34,7 +34,6 @@ public class Pila implements PilaInterface{
             return null;
         } else {
             return pila.remove(pila.size()-1);
-            
         }
     }
 
