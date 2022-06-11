@@ -8,7 +8,7 @@ import java.util.ArrayList;
  * Pila
  */
 public class Pila implements PilaInterface{
-    protected ArrayList pila;
+    protected ArrayList<Object> pila;
 
     public Pila(){
         pila=new ArrayList<>();
